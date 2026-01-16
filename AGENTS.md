@@ -38,3 +38,14 @@ bd sync               # Sync with git
 - NEVER say "ready to push when you are" - YOU must push
 - If push fails, resolve and retry until it succeeds
 
+## Issue Tracking
+
+This repository also documents its workflow via **bd (beads)**.
+Run `bd prime` for the latest workflow context or install hooks (`bd hooks install`).
+Quick reference:
+- `bd ready` - list unblocked work
+- `bd create "Title" --type task --priority 2` - file issues
+- `bd close <id>` - mark work done
+- `bd sync` - sync issues with git (run before pushing)
+
+For complete, up-to-date workflow documentation run `bd prime`.
